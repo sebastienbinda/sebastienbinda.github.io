@@ -60,4 +60,5 @@ jobs:
           else
           npm i
           fi
+          DEPLOYMENT_BRANCH=gh-pages
           npx docusaurus deploy
