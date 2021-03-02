@@ -1,7 +1,7 @@
 module.exports = {
   title: "REGARDS",
   tagline: "An opensource software to store and add value to your data.",
-  url: "https://ilianaghazali.github.io",
+  url: "https://ilianaghazali.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
