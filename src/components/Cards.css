@@ -1,7 +1,7 @@
 /** cards containers **/
 
 .cards {
-  padding: 5rem;
+  padding: 5rem 0;
   background-color: rgba(48, 56, 70, 0.8);
   scroll-behavior: smooth;
 }

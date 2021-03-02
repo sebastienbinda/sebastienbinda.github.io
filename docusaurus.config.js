@@ -11,7 +11,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       style: "dark",
-      title: "Home",
+      title: "REGARDS",
       logo: {
         alt: "Site Logo",
         src: "img/logos/regards-svg/regards-white.svg",

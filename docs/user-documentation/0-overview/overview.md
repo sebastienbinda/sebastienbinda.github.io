@@ -8,11 +8,9 @@ REGARDS (**_RE_**nouvellement des outils **_G_**énériques d'**_A_**ccès et d'
 
 <p>
   Face aux nombreuses missions spatiales permettant de collecter des données
-  d’observation et de télémétrie, une question de
-  <b>stockage, de gestion et de valorisation de l’information</b> s’est rapidement
+  d’observation et de télémétrie, une question de <b>stockage, de gestion et de valorisation de l’information</b> s’est rapidement
   imposée. REGARDS permet de répondre à cette demande sous la gestion d’un seul outil
-  tout en permettant une
-  <b>large adaptabilité de configuration</b>, afin de répondre à des besoins de
+  tout en permettant une <b>large adaptabilité de configuration</b>, afin de répondre à des besoins de
   traitements spécifiques.
 </p>
 
