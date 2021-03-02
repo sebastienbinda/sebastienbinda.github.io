@@ -115,7 +115,7 @@ module.exports = {
         docs: {
           remarkPlugins: [require("remark-import-partial")],
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/ilianaghazali/ilianaghazali.github.io",
+          editUrl: "https://github.com/ilianaghazali/ilianaghazali.github.io/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
