@@ -1,13 +1,13 @@
 module.exports = {
   title: "REGARDS",
   tagline: "An opensource software to store and add value to your data.",
-  url: "https://ilianaghazali.github.io/",
+  url: "https://sebastienbinda.github.io/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logos/regards-png/regards-favicon.png",
-  organizationName: "ilianaghazali",
-  projectName: "ilianaghazali.github.io",
+  organizationName: "sebastienbinda",
+  projectName: "sebastienbinda.github.io",
   themeConfig: {
     navbar: {
       style: "dark",
@@ -59,7 +59,7 @@ module.exports = {
           position: "right",
         },
         {
-          href: 'https://github.com/ilianaghazali/ilianaghazali.github.io',
+          href: 'https://github.com/sebastienbinda/sebastienbinda.github.io',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -100,7 +100,7 @@ module.exports = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/ilianaghazali/ilianaghazali.github.io",
+              href: "https://github.com/sebastienbinda/sebastienbinda.github.io",
             },
           ],
         },
@@ -115,7 +115,7 @@ module.exports = {
         docs: {
           remarkPlugins: [require("remark-import-partial")],
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/ilianaghazali/ilianaghazali.github.io/edit/master",
+          editUrl: "https://github.com/sebastienbinda/sebastienbinda.github.io/edit/master",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
