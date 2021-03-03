@@ -39,13 +39,7 @@ jobs:
         run: |
           mkdir -p ~/.ssh
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          echo "-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACDRA6+BifuQhMAiZkZnvg6lkUPnmWfS9BoALl/7vHiNrAAAAKBhcsBEYXLA
-RAAAAAtzc2gtZWQyNTUxOQAAACDRA6+BifuQhMAiZkZnvg6lkUPnmWfS9BoALl/7vHiNrA
-AAAECdCLum+o32mfhsewf1rSvK9/sQ9hmf0mT07myf0+P3edEDr4GJ+5CEwCJmRme+DqWR
-Q+eZZ9L0GgAuX/u8eI2sAAAAFnNlYmFzdGllbi5iaW5kYUBjLXMuZnIBAgMEBQYH
------END OPENSSH PRIVATE KEY-----" > ~/.ssh/id_ed25519
+          echo "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDRA6+BifuQhMAiZkZnvg6lkUPnmWfS9BoALl/7vHiNrAAAAKBhcsBEYXLA\nRAAAAAtzc2gtZWQyNTUxOQAAACDRA6+BifuQhMAiZkZnvg6lkUPnmWfS9BoALl/7vHiNrA\nAAAECdCLum+o32mfhsewf1rSvK9/sQ9hmf0mT07myf0+P3edEDr4GJ+5CEwCJmRme+DqWR\nQ+eZZ9L0GgAuX/u8eI2sAAAAFnNlYmFzdGllbi5iaW5kYUBjLXMuZnIBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----" > ~/.ssh/id_ed25519
           cat ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           cat <<EOT >> ~/.ssh/config
