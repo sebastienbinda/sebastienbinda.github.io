@@ -40,6 +40,7 @@ jobs:
           mkdir -p ~/.ssh
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           echo "${{ secrets.GH_PAGES_DEPLOY }}" > ~/.ssh/id_ed25519
+          cat ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
           cat <<EOT >> ~/.ssh/config
           Host github.com
